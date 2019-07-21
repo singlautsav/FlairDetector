@@ -7,7 +7,7 @@ def getRed(link):
     r = praw.Reddit(client_id= '7sdG8ZEP0wOzzQ',
                 client_secret='IiU7QAq-HPfmYhTlgqdVkMnsje4',
                 user_agent = 'Utsav FlareApp 0.1 by utsavsingla',
-                redirect_uri='http://localhost:5000')
+                redirect_uri='https://secret-bayou-86441.herokuapp.com/')
     submission = r.submission(url=link)
     print(submission)
     title = str(submission.title)
