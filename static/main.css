@@ -1,21 +1,29 @@
-body{
+/* body{
     margin-top: 350px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
     height: 20em;
     width: 20em;
+} */
+.abcd {
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: 20em;
+    width: 40em;
 }
 
-.formX h1{
+.formX h1{ 
     text-align: center;
 }
-
+ 
 .formX input{
     height: 40px;
-    width:60em;
-    margin-left: -17em;
-}
+    width:38em;
+    margin-left: 5em;
+} 
 
 .formX h3{
     margin-left: -5em;
@@ -34,13 +42,18 @@ body{
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        margin-left: 6.5em;
+        margin-left: 16.5em;
 }
 
 h2 {
-    text-align: center;
+    /* text-align: center; */
     font-size: 3em;
-    color: red
+    color: red;
+    margin-left: 4.5em;
+}
+
+.Stats{
+    font-size: 1.5em;
 }
 
 .labGreen{

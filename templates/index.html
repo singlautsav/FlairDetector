@@ -4,18 +4,25 @@
         <link rel="stylesheet" href="../static/main.css">
     </head>
    <body>
-        <div class="abcd"></div>
+       <div class="Stats">
+           <a href='https://flairfetector.herokuapp.com//graphs?field=mean'>Mean</a>
+           <a href="https://flairfetector.herokuapp.com//graphs?field=max">Max</a>
+       </div>
+
+        <div class="abcd">
             <form class='formX' method="POST" action="/">
                 <h1>Reddit Flair Detector</h1>
                 <p style="text-align:center;">
                 This service can detect flair of any post from <a href src='https://reddit.com/r/india'>/r/india</a>
                 </p>
-                <input type="text" name="name"  />
+                <input type="text" name="name"/>
             <br></br>
                 <button type="submit" name="x">Submit</button>
 
             </form>
+
             <h2>{{result}}</h2>
         </div>
+            
    </body>
 </html>
