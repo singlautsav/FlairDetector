@@ -42,3 +42,10 @@ h2 {
     font-size: 3em;
     color: red
 }
+
+.labGreen{
+    background-color: "lightgreen"
+}
+.labPink{
+    background-color: "pink"
+}

@@ -1,0 +1,50 @@
+<html>
+    <meta charset="utf-8">   
+    <title>Charts </title> 
+        <!-- import plugin script -->   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <!-- <link rel="stylesheet" href="../static/main.css">  -->
+    <!-- <script src="../static/main.js"></script> -->
+    <div style="text-align: center">
+    <span class="labGreen" style="background-color: lightgreen; margin-top: 5px">{{v1}}</span>
+    <span class="labPink" style="background-color: lightpink">{{v2}}</span>
+    </div>
+    <br></br>
+    <canvas id="chart" width="600" height="400"></canvas> 
+    
+    <script>
+    
+        var barData = {
+            labels:['AskIndia', 'Business/Finance', 'Food', 'Non-Political', 'Photography', 'Policy/Economy', 'Politics', 'Scheduled', 'Science/Technology', 'Sports', '[R]eddiquette'],
+            datasets: [{
+                label: 'Max # Comment',
+                fillColor: "lightgreen",
+                // strokeColor: "rgba(151,187,205,1)",
+                // pointColor: "rgba(151,187,205,1)",
+                data: {{values}}
+            }, {
+                label: 'Max Upvotes',
+                fillColor:"lightpink",
+                borderWidth: 1,
+                data: {{values2}}
+            }]
+
+        }
+        
+        var mychart = document.getElementById("chart").getContext("2d");
+        steps = 5
+        max = {{maxVal}}
+        // draw bar chart
+        new Chart(mychart).Bar(barData, { 
+            scaleOverride: true,
+            scaleSteps: steps,
+            scaleStepWidth: Math.ceil(max / steps),
+            scaleStartValue: 0,
+            scaleShowVerticalLines: true,
+            scaleShowGridLines : true,
+            barShowStroke : true,
+            scaleShowLabels: true
+        });
+        </script>
+    
+</html>
