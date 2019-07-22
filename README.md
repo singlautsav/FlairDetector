@@ -1,6 +1,8 @@
 # Reddit Flair Detector App
 ### A basic Flask app to detect the flair of reddit post in r/india subreddit.
 
+**[Link TO Live App](https://flairfetector.herokuapp.com/)**
+
 ## Technology Used
 1. Flask
 2. Praw (For Scrapping Reddit Data)
