@@ -32,7 +32,7 @@ def result():
     if request.method == 'POST':
         link = request.form['name']
         result = getRed(link)
-        model = pickle.load(open("../Data/modelTCBU-c2.sav",'rb'))
+        model = pickle.load(open("modelTCBU-c2.sav",'rb'))
         result = model.predict([result])[0]
         return render_template('index.html',result=result)
     else:
