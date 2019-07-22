@@ -28,4 +28,5 @@ websocket-client==0.56.0
 Werkzeug==0.15.5
 gunicorn==19.7.1
 eventlet
+urllib3
 pymongo
