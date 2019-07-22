@@ -27,7 +27,7 @@
 4. *Static* and *Template* folder include html/js/css files for the web pages
 
 ## How did I go about it.
-Since this task was something new for me and i hadn't worked on any machine learning model before. I got to learn a lot. Especially working with MongoDB and learning about text pre-processing. I have used SVM, Linear Logistics, Naive Bayes, XGBoost. to create vectors, i have tried pipelining count-vector with tfidf-transform and tfidf-vector with tfidf-transform. I downloaded around 2650 posts combining all 11 flair categories. Then tried to combine features and test the accuracy.
+Since this task was something new for me and i hadn't worked on any machine learning model before. I got to learn a lot. Especially working with MongoDB and learning about text pre-processing. I have used SVM,Random Forest, Logistics Regression, Naive Bayes, XGBoost. to create vectors, i have tried pipelining count-vector with tfidf-transform and tfidf-vector with tfidf-transform. I downloaded around 2650 posts combining all 11 flair categories. Then tried to combine features and test the accuracy.
 1. Features used and tested:
     * Title
     * Comments (top 30)
