@@ -100,11 +100,11 @@ Since this task was something new for me and i hadn't worked on any machine lear
 
 
 
-
-
-
-
-
+# Resources
+[For ML](https://www.analyticsvidhya.com/blog/2018/04/a-comprehensive-guide-to-understand-and-implement-text-classification-in-python/)
+[Reddit Data Scraping](https://praw.readthedocs.io/en/latest/)
+[Chart.js](https://pythonspot.com/flask-and-great-looking-charts-using-chart-js/)
+[Chart.js 2](https://www.chartjs.org/samples/latest/)
 
 
 
