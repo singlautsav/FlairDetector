@@ -34,6 +34,9 @@ Since this task was something new for me and i hadn't worked on any machine lear
     * Author
     * URL
     * Created (time)
+2. For creating graphs I have used Graphs.js with Flask. So from MongoDB I am fetching the data processed in Jupyter, and using that to form the graphs. Graphs Can be seen at 
+        1. **[Graph For mean](https://flairfetector.herokuapp.com/graphs?field=mean)**
+        2. **[Graph For max](https://flairfetector.herokuapp.com/graphs?field=max)**
 
 ### I tried combinations of all these and have tabulated them below.
 ## Results
